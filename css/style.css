@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(229, 246, 246);
+}
+.clase_RGB{
+    background-color:cadetblue;
+    color:rgb(125, 43, 206);
+}
+.icon{
+    background-color: rgb(136, 243, 243);
+}
+.noticias{
+    background-color: rgb(84, 200, 200);
+}
+.pie_pag{
+    background-color: rgba(16, 59, 231, 0.902);
+    text-align: center;
+}
