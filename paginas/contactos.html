@@ -6,32 +6,53 @@
     <title> Pagina de Contactos</title>
 </head>
 <body>
+
     <h2> Bienvenido a la página de Contactos...</h2>
     
     <a href = "../index.html">
-        <img src ="../imagenes/inicio.png" alt="no_carga_mensaje" tittle="Ir al index" width="20px">
+        <img src ="../imagenes/inicio.png" alt="no_carga_mensaje" tittle="Ir al index" width="30px">
     </a>
-<div class="img-contactos">
-    <img src="imagenes/banner.png" alt="no_carga_imagen" title="Contactos">
-</div>
-
-    <h3>Una respuesta de acuerdo a tu necesidad</h3>
-    <p>Para asegurarnos de resolver tus dudas, debes tener en cuenta que este
-        canal es únicamente para atención de servicio al cliente.</p>
     
-    <form action="">
-        <label for="">Formulario Estudiante Nuevo</label><br>
-        <input type="number" style="width: 50%; background: #CAD3E0;"placeholder="Ingrese numero de ID"><br>
-        <input type="text" style ="width:50%; background: #CAD3E0;" placeholder="Ingresar Nombres"><br>
-        <input type="text" style="width:50%; background: #CAD3E0;" placeholder="Ingrese Apellidos"><br>
-        <input type="text" style="width: 50%; background: #CAD3E0;" placeholder="Ingrese E-mail"><br>
-        <select name="" id="">
-            
-        <label for="">Ingrese sus credenciales para el acceso al sistema</label><br>
-        <input type="text" placeholder="Ingrese el usuario"><br>
-        <input type="password" placeholder="Ingrese contraseña"><br>
-        <input type="submit" placeholder="Resgistrar Datos"><br>
-
-    <img src ="imagenes/imagen_apoyo_contacto.png" alt="no_carga_mensaje" tittle="Apoyo Contactos" width="20px">
+    <div style="width: 100%; background: #bfdfe6">
+        <FORM action="">		
+                <LEGEND>Formulario de contacto</LEGEND>
+                <label for="nombre">Nombre:</label>
+                <input type="text"  style=" width: 50%; background:  #f3f3f3f8" name="nombre" id="nombre" placeholder="Keiner Hortua">
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" style="width: 50%; background: #f3f3f3f8" name="email" id="email" placeholder="alpina@gmail.com">
+                <br>
+                <label for="Cedula">Cedula:</label>
+                <input type="number" style=" width: 50%; background: #f3f3f3f8" name="cedula" id="Cedula" placeholder="10003562">
+                <br>
+                <label for="telefono">Telefono:</label>
+                <input type="number" style=" width: 50%; background: #f3f3f3f8" name="telefono" id="telefono" placeholder="3104623453">
+                <br>
+                <label for=""> Seleccione la Ciudad </label>
+                <select name="ciudad" style="background: #f3f3f3f8" id="ciudad">
+                    <option value="bogota">Santa Marta</option>
+                    <option value="medellin">Pereira</option>
+                    <option value="cali">Cali</option>
+                    <option value="barranquilla">Aguachica</option>
+                    <option value="cartagena">Mompox</option>
+                    <option value="aguachica">Aracataca</option>
+                </select>
+                <br>
+                <label for"" >Seleccione el tipo de genero</label><br>
+                <input type="radio" name="genero" id="genero" value="masculino">Masculino
+                <input type="radio" name="genero" id="genero" value="femenino">Femenino
+                <input type="radio" name="genero" id="genero" value="otro" >Otro
+                <br>
+                <br>
+                <label for=""> Ingrese sus credenciales para el acceso al sistema</label><br>
+                <input type="text" name="usuario" id="usuario" placeholder="Pedro" style="background: #f3f3f3f8">
+                <input type="password" name="clave" id="clave" placeholder="********" style="background: #f3f3f3f8">
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Alpina la mejor..." style="background: #f3f3f3f8"></textarea>
+                <br>
+                <input type="submit" style="background: #f3f3f3f8" value="Enviar">
+        </FORM>
 </body>
 </html>
